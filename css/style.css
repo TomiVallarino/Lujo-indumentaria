@@ -1,0 +1,201 @@
+
+/* estilo generales*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color:rgb(110, 24, 24);
+}
+
+
+header{
+    padding: 10px;
+    flex-direction: row;
+}
+
+a:link{
+    color: crimson;
+}
+a:visited{
+    color: salmon;
+}
+
+a:hover{
+    color:  rgb(71, 173, 71) !important;
+    text-shadow: 2px 2px 5px;
+}
+
+
+    /*main*/
+
+main .main1{
+    background-color:rgb(110, 24, 24);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.copamundo{
+    height: 600px;
+    width: 100%;
+    background-image: url(./../assets/copa-del-mundo_11.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*Estilos para Index*/
+
+.subtitulo1{
+    color: aliceblue;
+}
+
+
+.col-5{
+    width: 500px;
+}
+
+
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+@media (max-width: 768px){main .contenedor-grid {
+    grid-template-columns:repeat(2, 1fr) ;}
+}
+@media (max-width:480px){main .contenedor-grid{
+    grid-template-columns: repeat(1, 1fr);
+}}
+
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    margin: 200px;
+}
+
+.navbar{
+    --bs-navbar-padding-x: none
+}
+.navbar-brand{
+    color: aliceblue;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar-toggler{
+    border: none;
+}
+.menu-icon{
+    background-image: url(../assets/menu-hamburger-svgrepo-com\ \(1\).svg);
+}
+
+.menu-box:focus{
+    box-shadow: none;
+}
+
+
+/*estilos para html modelos*/
+section h2{
+    text-align: center;
+    text-shadow: 1px 1px 10px;
+    margin-bottom: 40px;
+}
+.contenedor-flex1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.card1{
+    height: 750px;
+    background-color: #393b43;
+    border-radius: 20px 20px;
+    overflow: hidden;
+}
+
+.card1 img{
+    width: 100%;
+    height: 500px;
+}
+.card-text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color: #393b43;
+}
+.bk-p{
+    background-color: #393b43;
+}
+/*estilos para html Quienes somos?*/
+
+section div h3{
+    text-align: center;
+    text-shadow: 1px 1px 10px;
+    color: black;
+    background-color: #393b43;
+}
+
+section div h4{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+.quienes-h3{
+    background-color:rgb(110, 24, 24) ;
+}
+
+.abajo-izquierda{
+    position: absolute;
+    bottom: 0;
+}
+
+/*HTML de POlitica*/
+.polcambio{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main2{
+    background-color: rgb(110, 24, 24);
+}
+
+.grid-pol{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+@media (max-width:768px){.grid-pol{
+    grid-template-columns: repeat(1,1fr);
+}}
+
+
+/*estilos para contactos*/
+.div-contacto{
+    gap: 10px;
+}
+input:focus{
+    outline:none;
+    border: 5px solid rgba(0, 255, 21, 0.911);
+    box-shadow: 123px 75px 0px -14px rgba(0,0,0,0.77);
+    -webkit-box-shadow: 123px 75px 0px -14px rgba(0,0,0,0.77);
+    -moz-box-shadow: 123px 75px 0px -14px rgba(0,0,0,0.77);;
+}
