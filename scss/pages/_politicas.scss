@@ -1,0 +1,22 @@
+/*Estilos para politicas*/
+main{
+    .grid-pol{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+        div{
+            .quienes-h3{
+                background-color:rgb(110, 24, 24) ;
+                text-align: center;
+                text-shadow: 1px 1px 10px;
+                color: black;
+            }
+            p{
+                margin: 0;
+                color: black;
+                text-align: center;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,55 @@
+
+
+a:hover{
+    color:  rgb(71, 173, 71) !important;
+    text-shadow: 2px 2px 5px;
+}
+/*Estilos para header index*/
+header{
+    padding: 10px;
+    .navbar{
+        --bs-navbar-padding-x: none
+    }
+    .navbar-brand{
+        color: aliceblue;
+    }
+    .navbar-collapse{
+        flex-grow: 0;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .menu-icon{
+        background-image: url(../assets/menu-hamburger-svgrepo-com\ \(1\).svg);
+    }
+    
+    .menu-box:focus{
+        box-shadow: none;
+    }
+}
+
+/*estilos index main*/
+
+main{
+    .subtitulo1{
+        color: aliceblue;
+        .copamundo{    
+            height: 600px;
+            width: 100%;
+            background-image: url(./../assets/copa-del-mundo_11.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;}
+        h3{
+            color: aliceblue;
+        }
+        p{
+            color: black;
+        }
+    }
+    .contenedor-grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+}

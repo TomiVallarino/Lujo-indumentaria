@@ -1,0 +1,194 @@
+/*reset general*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  background-color: rgb(110, 24, 24);
+}
+
+/*Estilos para todos los html*/
+h1 {
+  text-align: center;
+  text-shadow: 3px 3px 5px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px 10px;
+  color: black;
+}
+
+a:link {
+  color: rgba(180, 72, 0, 0.74);
+}
+
+a:visited {
+  color: rgb(252, 103, 4);
+}
+
+.main1 section div .quienes-h3 {
+  background-color: rgb(110, 24, 24);
+  color: black;
+}
+
+a:hover {
+  color: rgb(71, 173, 71) !important;
+  text-shadow: 2px 2px 5px;
+}
+
+/*Estilos para header index*/
+header {
+  padding: 10px;
+}
+header .navbar {
+  --bs-navbar-padding-x: none ;
+}
+header .navbar-brand {
+  color: aliceblue;
+}
+header .navbar-collapse {
+  flex-grow: 0;
+}
+header .navbar-toggler {
+  border: none;
+}
+header .menu-icon {
+  background-image: url(../assets/menu-hamburger-svgrepo-com\ \(1\).svg);
+}
+header .menu-box:focus {
+  box-shadow: none;
+}
+
+/*estilos index main*/
+main .subtitulo1 {
+  color: aliceblue;
+}
+main .subtitulo1 .copamundo {
+  height: 600px;
+  width: 100%;
+  background-image: url(./../assets/copa-del-mundo_11.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .subtitulo1 h3 {
+  color: aliceblue;
+}
+main .subtitulo1 p {
+  color: black;
+}
+main .contenedor-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/*Estiolos para modelos*/
+.main2 section h2 {
+  text-align: center;
+  text-shadow: 1px 1px 10px;
+  margin-bottom: 40px;
+}
+.main2 section .contenedor-flex1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.main2 section .contenedor-flex1 .card1 {
+  height: 750px;
+  background-color: #393b43;
+  border-radius: 20px 20px;
+  overflow: hidden;
+}
+.main2 section .contenedor-flex1 .card1 img {
+  width: 100%;
+  height: 500px;
+}
+.main2 section .contenedor-flex1 .card1 .card-text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  background-color: #393b43;
+}
+.main2 section .contenedor-flex1 .card1 .card-text1 h3 {
+  background-color: #393b43;
+  color: black;
+}
+.main2 section .contenedor-flex1 .card1 .card-text1 .bk-p {
+  background-color: #393b43;
+  color: black;
+}
+
+/*estilos para main contacto*/
+.main1 section .div-contacto {
+  gap: 10px;
+}
+.main1 input:focus {
+  outline: none;
+  border: 5px solid rgba(25, 0, 255, 0.911);
+}
+
+/*Estilos para politicas*/
+main .grid-pol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+main .grid-pol div .quienes-h3 {
+  background-color: rgb(110, 24, 24);
+  text-align: center;
+  text-shadow: 1px 1px 10px;
+  color: black;
+}
+main .grid-pol div p {
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+
+/*Estiolos para Quienes somos*/
+.main1 section div .quienes-h3 {
+  text-align: center;
+  text-shadow: 1px 1px 10px;
+}
+.main1 section div h4 {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 1px 1px 10px;
+}
+.main1 section div p {
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+
+.abajo-izquierda {
+  bottom: 0;
+}
+
+/*Media queries*/
+@media (max-width: 768px) {
+  main .grid-pol {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  main .contenedor-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  main .contenedor-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

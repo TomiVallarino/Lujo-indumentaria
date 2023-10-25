@@ -1,0 +1,28 @@
+/*Estiolos para Quienes somos*/
+.main1{
+    section{
+        div{
+            .quienes-h3{    
+                text-align: center;
+                text-shadow: 1px 1px 10px;
+                @extend %estilos-colores;
+                //background-color:rgb(110, 24, 24);
+                //color: black;
+            }
+        }
+        div{
+            h4{
+                margin: 10px;
+                padding: 5px;
+                text-align: center;
+                color: aliceblue;
+                text-shadow: 1px 1px 10px;
+            }
+            p{
+                margin: 0;
+                color: black;
+                text-align: center;
+            }
+        }
+    }
+}
