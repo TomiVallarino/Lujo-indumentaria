@@ -31,7 +31,7 @@ a:link {
 }
 
 a:visited {
-  color: black;
+  color: aliceblue;
 }
 
 .main1 section div .quienes-h3 {
@@ -183,8 +183,13 @@ footer div {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 30px;
-  margin-top: 20px;
+  padding: 15px;
+  margin-top: 15px;
+}
+footer div h3 {
+  color: black;
+  text-shadow: 1px 1px 10px;
+  font-size: 23px;
 }
 footer img {
   width: 35px;
