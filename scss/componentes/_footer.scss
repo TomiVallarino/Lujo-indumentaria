@@ -1,4 +1,12 @@
-
-.abajo-izquierda{
-    bottom: 0;
+footer{
+    div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    img{
+        width: 35px;
+    }
 }
